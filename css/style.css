@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    color: #4caf50;
+    padding: 3.2px 16px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+label,
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+#minutos {
+    width: 50px;
+}
